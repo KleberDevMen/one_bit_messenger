@@ -5,5 +5,5 @@ Rails.application.routes.draw do
     resources :messages, only: :create, defaults: { format: :js }
   end
 
-  root to: "home#index"
+  root to: "chats#index"
 end
